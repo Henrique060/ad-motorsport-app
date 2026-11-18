@@ -1,0 +1,160 @@
+{
+  "nav": {
+    "home": "Início",
+    "services": "Serviços",
+    "estimator": "Estimador",
+    "about": "Sobre",
+    "book": "Agendar"
+  },
+  "header": {
+    "status": "Aberto Hoje • 08:00 – 19:00",
+    "call": "+351 912 345 678",
+    "bookService": "Agendar Serviço",
+    "langToggle": "EN"
+  },
+  "hero": {
+    "title": "Reparação Automóvel de Precisão & Motorsport",
+    "subtitle": "Engenharia automóvel certificada, alinhamento laser Hunter 3D, diagnóstico eletrónico oficial e preparação de pista. Comunicação técnica direta e zero suposições.",
+    "bookBtn": "Agendar Marcação",
+    "estimatorBtn": "Estimador de Serviço",
+    "aboutBtn": "Localização & Sobre",
+    "metrics": {
+      "experience": "15+ Anos Pista & Estrada",
+      "vehicles": "12.400+ Veículos Assistidos",
+      "diagnostic": "Diagnóstico Expresso em 30 Min",
+      "parts": "100% Peças OEM & Alta Performance"
+    }
+  },
+  "services": {
+    "tag": "Capacidades da Oficina",
+    "title": "Serviços Especializados & Âmbito Técnico",
+    "desc": "Concebido para fiabilidade diária e máxima performance. Cada intervenção inclui relatório digital detalhado de inspeção.",
+    "filters": {
+      "all": "Todos os Serviços",
+      "maintenance": "Manutenção Regular",
+      "mechanical": "Mecânica & Travões",
+      "diagnostics": "Diagnóstico & Eletrónica",
+      "motorsport": "Motorsport & Banco de Ensaio"
+    },
+    "warrantyLabel": "Garantia",
+    "estTimeLabel": "Tempo Estimado",
+    "bookProcedure": "Agendar Este Procedimento"
+  },
+  "estimator": {
+    "tag": "Consulta & Planeamento do Veículo",
+    "title": "Estimador de Serviço & Prazos",
+    "desc": "Selecione a marca, modelo, ano e o procedimento pretendido para consultar o tempo de execução e afetação de elevador/posto de trabalho.",
+    "step1": "1. Especificações do Veículo",
+    "brandLabel": "Marca do Veículo",
+    "modelLabel": "Modelo do Carro",
+    "yearLabel": "Ano de Fabrico",
+    "step2": "2. Procedimento & Detalhes Técnicos",
+    "serviceLabel": "Procedimento Pretendido",
+    "mileageLabel": "Quilometragem Atual (Opcional)",
+    "mileagePlaceholder": "ex: 45.000 km",
+    "symptomsLabel": "Sintomas ou Instruções Específicas (Opcional)",
+    "symptomsPlaceholder": "ex: Vibração na travagem, afinação de camber para circuito...",
+    "scopeTitle": "Resumo Técnico do Procedimento",
+    "selectedVehicle": "Veículo Selecionado",
+    "modelYear": "Ano do Modelo",
+    "estTurnaround": "Tempo Estimado",
+    "includedTitle": "Incluído nesta intervenção:",
+    "scheduleBtn": "Agendar Este Procedimento"
+  },
+  "about": {
+    "tag": "Sobre a AD Motorsport",
+    "title": "Padrões de Engenharia & Instalações",
+    "desc": "Preparação automóvel com rigor de competição e manutenção diária fiável. Mecânicos especialistas certificados e equipamento de ponta.",
+    "storyTitle": "O Padrão da Oficina",
+    "storyP1": "Na AD Motorsport, cada viatura é intervencionada com rigor cirúrgico. Desde uma viatura de uso diário numa muda de óleo sintético até um Porsche de pista para calibração de pesos por roda, os nossos técnicos seguem à risca os binários de aperto de fábrica e fichas de verificação digital.",
+    "storyP2": "Sem suposições nem substituições desnecessárias. Boxes limpas, equipamento de calibração aferido e comunicação direta com o mecânico responsável pela sua viatura.",
+    "equipment1": "Sistema de Alinhamento Laser 3D Hunter Hawkeye",
+    "equipment2": "Banco de Potência 4WD Sincronizado Dynojet",
+    "equipment3": "Sistemas de Diagnóstico Oficiais de Fabricante",
+    "scheduleInspection": "Agendar uma Inspeção",
+    "contactTitle": "Contacto & Questões Técnicas",
+    "contactDesc": "Tem alguma questão sobre códigos de erro de diagnóstico, intervalos de manutenção ou afinação de pista? Fale diretamente com a equipa técnica:",
+    "subjectLabel": "Assunto",
+    "subjectPlaceholder": "ex: Consulta para melhoria de travões / Análise de luz de motor",
+    "messageLabel": "Mensagem / Detalhes",
+    "messagePlaceholder": "Descreva as características da viatura e a assistência necessária...",
+    "sendEmailBtn": "Enviar Email Direto",
+    "emailLabel": "Email:",
+    "phoneLabel": "Telefone:",
+    "hoursLabel": "Horário:",
+    "hoursVal": "Seg – Sex: 08:00 – 19:00 | Sáb: 08:30 – 13:30",
+    "locationTitle": "Localização da Oficina",
+    "locationDesc": "Av. Motorsport Tech Park, Pavilhões 4-6, Zona Industrial (Acesso direto à autoestrada, amplo espaço para porta-carros)",
+    "openMapsBtn": "Abrir no Google Maps ↗"
+  },
+  "facility": {
+    "tag": "Infraestrutura Técnica",
+    "title": "Equipamento Especializado de Oficina",
+    "desc": "Telemetria de competição, calibração laser e montagem com normas de sala limpa.",
+    "items": [
+      {
+        "title": "Alinhador Laser 3D Hunter Hawkeye Elite",
+        "desc": "Geometria de direção submétrica, distribuição de pesos por roda e afinação personalizada de camber/caster para estabilidade ou circuito."
+      },
+      {
+        "title": "Banco de Ensaio 4WD Dynojet Sincronizado",
+        "desc": "Testes de carga contínua por correntes de Foucault até 1.200 CV com telemetria de sensores lambda de banda larga."
+      },
+      {
+        "title": "Suites de Diagnóstico Oficial de Fabricante",
+        "desc": "Software autorizado para Porsche PIWIS, BMW ISTA/D, Audi ODIS e recolha em tempo real por osciloscópio de alta velocidade."
+      },
+      {
+        "title": "Área de Montagem de Motores em Ambiente Controlado",
+        "desc": "Box dedicada à reconstrução de motores com filtragem de poeiras e ferramentas calibradas a micro-binários."
+      }
+    ]
+  },
+  "reviews": {
+    "tag": "Avaliações Verificadas",
+    "title": "A Confiança de Condutores & Entusiastas",
+    "desc": "Mais de 480 avaliações de cinco estrelas no Google e fóruns da especialidade."
+  },
+  "modal": {
+    "title": "Agendar Serviço de Oficina",
+    "confirmedTitle": "Serviço Reservado com Sucesso!",
+    "refLabel": "O seu código de referência de reserva é:",
+    "serviceLabel": "Serviço:",
+    "vehicleLabel": "Veículo:",
+    "plateLabel": "Matrícula:",
+    "dateWindowLabel": "Data & Horário:",
+    "smsNotice": "✓ Confirmação por SMS e WhatsApp enviada para o seu contacto telefónico.",
+    "doneBtn": "Concluir",
+    "makeLabel": "Marca do Veículo",
+    "makePlaceholder": "ex: Porsche, BMW, VW",
+    "modelLabel": "Modelo & Ano",
+    "modelPlaceholder": "ex: 911 GT3 (2023)",
+    "licensePlateLabel": "Matrícula (Opcional)",
+    "dateLabel": "Data Preferencial",
+    "procedureLabel": "Procedimento Pretendido",
+    "windowLabel": "Janela de Entrega",
+    "windowMorning": "Entrega Matinal (08:30 - 12:00)",
+    "windowMidday": "Turno do Meio-Dia (12:00 - 15:00)",
+    "windowAfternoon": "Entrega de Tarde (15:00 - 18:30)",
+    "nameLabel": "O Seu Nome",
+    "phoneLabel": "Telefone / WhatsApp",
+    "notesLabel": "Sintomas ou Instruções Específicas",
+    "notesPlaceholder": "Descreva vibrações, ruídos, avisos no painel ou pedidos de afinação...",
+    "confirmBtn": "Confirmar Pedido de Agendamento"
+  },
+  "footer": {
+    "desc": "Reparação automóvel especializada, preparação de performance e assistência de competição. Centro oficial Hunter 3D e Dynojet.",
+    "warrantyBadge": "Garantia de 24 Meses em Peças OEM e Mão de Obra",
+    "hoursTitle": "Horário de Funcionamento",
+    "monFri": "Segunda – Sexta:",
+    "monFriVal": "08:00 – 19:00",
+    "sat": "Sábado:",
+    "satVal": "08:30 – 13:30",
+    "sun": "Domingo:",
+    "sunVal": "Encerrado (Apoio em Pista)",
+    "emergency": "Assistência em Viagem e Reboque 24/7 Disponível",
+    "contactTitle": "Localização & Contacto",
+    "backToTop": "Voltar ao Topo ↑",
+    "copyright": "AD Motorsport. Todos os Direitos Reservados. Engenharia com Rigor."
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "estimator": "Estimator",
+    "about": "About",
+    "book": "Book"
+  },
+  "header": {
+    "status": "Open Today • 08:00 – 19:00",
+    "call": "+351 912 345 678",
+    "bookService": "Book Service",
+    "langToggle": "PT"
+  },
+  "hero": {
+    "title": "Precision Car Repair & Motorsport Performance",
+    "subtitle": "Certified automotive engineering, Hunter 3D laser alignment, dealer-level ECU diagnostics, and custom track preparation. Direct technical communication and zero guesswork.",
+    "bookBtn": "Book Appointment",
+    "estimatorBtn": "Service Estimator",
+    "aboutBtn": "Location & About",
+    "metrics": {
+      "experience": "15+ Years Track & Street",
+      "vehicles": "12,400+ Vehicles Serviced",
+      "diagnostic": "30-Min Express Diagnostics",
+      "parts": "100% OEM & High-Grade Parts"
+    }
+  },
+  "services": {
+    "tag": "Workshop Capabilities",
+    "title": "Specialist Services & Technical Scope",
+    "desc": "Engineered for everyday vehicle reliability and competition performance. Every procedure includes an itemized digital inspection report.",
+    "filters": {
+      "all": "All Services",
+      "maintenance": "Routine Care",
+      "mechanical": "Mechanical & Brakes",
+      "diagnostics": "ECU & Diagnostics",
+      "motorsport": "Motorsport & Dyno"
+    },
+    "warrantyLabel": "Warranty",
+    "estTimeLabel": "Turnaround",
+    "bookProcedure": "Book This Procedure"
+  },
+  "estimator": {
+    "tag": "Vehicle Consultation & Planning",
+    "title": "Service & Turnaround Estimator",
+    "desc": "Select your vehicle brand, model, year, and requested procedure to calculate technical turnaround time and workshop bay assignment.",
+    "step1": "1. Vehicle Specifications",
+    "brandLabel": "Vehicle Brand",
+    "modelLabel": "Car Model",
+    "yearLabel": "Manufacturing Year",
+    "step2": "2. Procedure & Technical Details",
+    "serviceLabel": "Required Procedure",
+    "mileageLabel": "Current Odometer / Mileage (Optional)",
+    "mileagePlaceholder": "e.g. 45,000 km",
+    "symptomsLabel": "Symptoms or Specific Requests (Optional)",
+    "symptomsPlaceholder": "e.g. Vibration under braking, track alignment setup...",
+    "scopeTitle": "Technical Scope Overview",
+    "selectedVehicle": "Selected Vehicle",
+    "modelYear": "Model Year",
+    "estTurnaround": "Est. Turnaround",
+    "includedTitle": "Included in this procedure:",
+    "scheduleBtn": "Schedule This Procedure"
+  },
+  "about": {
+    "tag": "About AD Motorsport",
+    "title": "Engineering Standards & Facility",
+    "desc": "High-tolerance motorsport preparation and reliable everyday automotive repair. Certified master technicians and specialized tooling.",
+    "storyTitle": "The Workshop Standard",
+    "storyP1": "At AD Motorsport, every vehicle is serviced with surgical precision. From a commuter hatchback undergoing routine synthetic oil service to a circuit-spec Porsche requiring corner balancing, our technicians adhere strictly to factory torque specs and digital multi-point checklists.",
+    "storyP2": "No guesswork, no unnecessary part replacement. Clean workshop bays, calibrated diagnostic equipment, and direct communication with the technician handling your car.",
+    "equipment1": "Hunter 3D Hawkeye Laser Alignment System",
+    "equipment2": "Dynojet 4WD Synchronized Dynamometer",
+    "equipment3": "Authorized OEM Dealer-Level Diagnostic Suites",
+    "scheduleInspection": "Schedule an Inspection",
+    "contactTitle": "Contact & Technical Inquiry",
+    "contactDesc": "Have a question regarding diagnostic fault codes, maintenance intervals, or circuit setup? Contact our technical team directly:",
+    "subjectLabel": "Subject",
+    "subjectPlaceholder": "e.g. Brake upgrade consultation / Fault code diagnosis",
+    "messageLabel": "Message / Details",
+    "messagePlaceholder": "Describe your vehicle specifications and required assistance...",
+    "sendEmailBtn": "Send Direct Email",
+    "emailLabel": "Email:",
+    "phoneLabel": "Phone:",
+    "hoursLabel": "Hours:",
+    "hoursVal": "Mon – Fri: 08:00 – 19:00 | Sat: 08:30 – 13:30",
+    "locationTitle": "Workshop Location",
+    "locationDesc": "Av. Motorsport Tech Park, Bay 4-6, Industrial Park (Direct highway access, wide trailer turnaround)",
+    "openMapsBtn": "Open in Google Maps ↗"
+  },
+  "facility": {
+    "tag": "Technical Infrastructure",
+    "title": "Precision Workshop Equipment",
+    "desc": "Motorsport telemetry, laser calibration, and clean-room assembly standards.",
+    "items": [
+      {
+        "title": "Hunter Hawkeye Elite 3D Laser Alignment",
+        "desc": "Sub-millimeter steering geometry, corner weighting, and custom camber/caster setups for highway stability or circuit performance."
+      },
+      {
+        "title": "Dynojet 4WD Synchronized Dynamometer",
+        "desc": "Real-time eddy-current load control testing up to 1,200 HP with dual wideband lambda sensor telemetry."
+      },
+      {
+        "title": "OEM Diagnostic Diagnostic Suites",
+        "desc": "Authorized dealer software for Porsche PIWIS, BMW ISTA/D, Audi ODIS, and universal high-speed oscilloscope capture."
+      },
+      {
+        "title": "Dedicated Clean Room & Engine Assembly",
+        "desc": "Climate-controlled dust-free engine rebuilding bay with micro-torque calibration standards."
+      }
+    ]
+  },
+  "reviews": {
+    "tag": "Verified Driver Feedback",
+    "title": "Trusted by Enthusiasts & Commuters",
+    "desc": "Over 480 verified five-star reviews on Google and automotive forums."
+  },
+  "modal": {
+    "title": "Book Workshop Service",
+    "confirmedTitle": "Service Reserved Successfully!",
+    "refLabel": "Your reservation reference code is:",
+    "serviceLabel": "Service:",
+    "vehicleLabel": "Vehicle:",
+    "plateLabel": "Plate:",
+    "dateWindowLabel": "Date & Window:",
+    "smsNotice": "✓ SMS & WhatsApp confirmation dispatched to your contact phone.",
+    "doneBtn": "Done",
+    "makeLabel": "Vehicle Make / Brand",
+    "makePlaceholder": "e.g. Porsche, BMW, VW",
+    "modelLabel": "Model & Year",
+    "modelPlaceholder": "e.g. 911 GT3 (2023)",
+    "licensePlateLabel": "License Plate (Optional)",
+    "dateLabel": "Preferred Date",
+    "procedureLabel": "Procedure Requested",
+    "windowLabel": "Drop-off Window",
+    "windowMorning": "Morning Drop-off (08:30 - 12:00)",
+    "windowMidday": "Midday Slot (12:00 - 15:00)",
+    "windowAfternoon": "Afternoon Drop-off (15:00 - 18:30)",
+    "nameLabel": "Your Name",
+    "phoneLabel": "Phone / WhatsApp",
+    "notesLabel": "Symptoms or Specific Instructions",
+    "notesPlaceholder": "Describe any vibrations, noises, warning indicators, or setup requests...",
+    "confirmBtn": "Confirm Appointment Request"
+  },
+  "footer": {
+    "desc": "Specialist automotive repair, performance tuning, and motorsport race preparation. Official Hunter 3D alignment & Dynojet calibration center.",
+    "warrantyBadge": "24-Month Warranty on All OEM Parts & Labor",
+    "hoursTitle": "Workshop Operating Hours",
+    "monFri": "Monday – Friday:",
+    "monFriVal": "08:00 – 19:00",
+    "sat": "Saturday:",
+    "satVal": "08:30 – 13:30",
+    "sun": "Sunday:",
+    "sunVal": "Closed (Track Support Only)",
+    "emergency": "24/7 Roadside Assistance Available",
+    "contactTitle": "Location & Contact",
+    "backToTop": "Back to Top ↑",
+    "copyright": "AD Motorsport. All Rights Reserved. Engineered with Precision."
+  }
+}

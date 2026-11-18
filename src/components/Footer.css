@@ -1,0 +1,82 @@
+/* ==========================================================================
+   FOOTER COMPONENT STYLES
+   - White logo badge to guarantee visibility with NO shadow
+   ========================================================================== */
+
+.app-footer {
+  background: var(--dark-carbon);
+  color: #FFFFFF;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 3.5rem 1.25rem 2rem;
+  margin-top: 2rem;
+}
+
+.footer-inner {
+  max-width: 1240px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+/* White contrasting badge to fix logo visibility without any drop-shadow */
+.footer-logo-badge {
+  background: #FFFFFF;
+  border-radius: 12px;
+  padding: 6px 14px;
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 1.25rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.footer-logo-img {
+  max-height: 40px;
+  width: auto;
+  object-fit: contain;
+  filter: none !important; /* NO SHADOW */
+}
+
+.footer-desc {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+.footer-title {
+  font-size: 1.1rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 1.25rem;
+  color: #FFFFFF;
+  letter-spacing: 0.03em;
+}
+
+.footer-hours-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.footer-hours-list span {
+  color: #FFFFFF;
+  font-weight: 700;
+}
+
+.footer-bottom {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}

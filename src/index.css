@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+/* ==========================================================================
+   AD MOTORSPORT - GLOBAL DESIGN SYSTEM & VARIABLES
+   Base Color: #EA562E (Signature Orange)
+   Accent Colors: #111A27 (Dark Carbon), #19283E (Deep Navy), #FFFFFF
+   ========================================================================== */
+
+:root {
+  --primary-orange: #EA562E;
+  --primary-orange-hover: #D7431B;
+  --primary-orange-light: #FF6F47;
+  --dark-navy: #19283E;
+  --dark-carbon: #111A27;
+  --dark-card: #141F30;
+  --dark-card-border: rgba(255, 255, 255, 0.08);
+  --light-cream: #F5EFE6;
+  --pure-white: #FFFFFF;
+  --text-primary: #FFFFFF;
+  --text-secondary: #9DB0C6;
+  --text-dark: #121A26;
+  --success-green: #10B981;
+  --warning-amber: #F59E0B;
+  --shadow-lg: 0 16px 36px -8px rgba(0, 0, 0, 0.35);
+  --font-family: 'Montserrat', system-ui, -apple-system, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: var(--primary-orange);
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--primary-orange);
+  color: var(--text-dark);
+  line-height: 1.5;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+/* Base App Wrapper */
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--primary-orange);
+  position: relative;
+  padding-bottom: 95px; /* space for bottom floating nav */
+}
+
+/* Dynamic Tab Content Transition */
+.tab-view-container {
+  min-height: 70vh;
+  animation: fadeInView 0.25s ease-out;
+}
+
+@keyframes fadeInView {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ==========================================================================
+   COMMON LAYOUT WRAPPERS & TYPOGRAPHY
+   ========================================================================== */
+.section-wrapper {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 3rem 1.25rem;
+  width: 100%;
+}
+
+.section-header {
+  text-align: center;
+  max-width: 720px;
+  margin: 0 auto 2.5rem;
+}
+
+.section-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: var(--dark-navy);
+  color: var(--primary-orange);
+  font-size: 0.8rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 0.35rem 0.85rem;
+  border-radius: 999px;
+  margin-bottom: 0.75rem;
+}
+
+.section-title {
+  font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+  font-weight: 900;
+  color: var(--dark-navy);
+  text-transform: uppercase;
+  letter-spacing: -0.01em;
+  line-height: 1.15;
+  margin-bottom: 0.75rem;
+}
+
+.section-desc {
+  font-size: 1rem;
+  color: #121A26;
+  font-weight: 600;
+}

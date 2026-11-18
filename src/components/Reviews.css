@@ -1,0 +1,53 @@
+/* ==========================================================================
+   REVIEWS COMPONENT STYLES
+   - Blue text boxes with slight shadows for hierarchy
+   ========================================================================== */
+
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+/* Blue review cards with slight shadow for visual hierarchy */
+.review-card {
+  background: var(--dark-card);
+  border: 1px solid var(--dark-card-border);
+  border-radius: 20px;
+  padding: 1.75rem;
+  color: #FFFFFF;
+  box-shadow: 0 10px 25px -4px rgba(0, 0, 0, 0.4), 0 4px 10px -2px rgba(0, 0, 0, 0.25);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.review-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 30px -4px rgba(0, 0, 0, 0.5);
+}
+
+.review-stars {
+  display: flex;
+  gap: 0.25rem;
+  color: #FBBF24;
+  margin-bottom: 0.85rem;
+}
+
+.review-text {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #E2E8F0;
+  margin-bottom: 1.25rem;
+  font-style: italic;
+}
+
+.review-author {
+  font-size: 0.95rem;
+  font-weight: 800;
+  color: #FFFFFF;
+}
+
+.review-car {
+  font-size: 0.8rem;
+  color: var(--primary-orange);
+  font-weight: 700;
+}
