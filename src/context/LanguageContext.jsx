@@ -1,17 +1,23 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
+import fallbackPt from '../../public/locales/pt.json';
+import fallbackEn from '../../public/locales/en.json';
 
 const LanguageContext = createContext();
 
 export function LanguageProvider({ children }) {
   const [lang, setLang] = useState('pt'); // Default to PT
-  const [strings, setStrings] = useState(null);
-  const [isLoading, setIsLoading] = useState(true);
+  const [strings, setStrings] = useState(fallbackPt);
+  const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
     let isMounted = true;
     setIsLoading(true);
 
-    fetch(`/locales/${lang}.json`)
+    const baseUrl = import.meta.env.BASE_URL || './';
+    const cleanBase = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
+    const targetUrl = `${cleanBase}locales/${lang}.json`;
+
+    fetch(targetUrl)
       .then(res => {
         if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
         return res.json();
@@ -23,8 +29,11 @@ export function LanguageProvider({ children }) {
         }
       })
       .catch(err => {
-        console.warn('Could not fetch locale file, falling back:', err);
-        setIsLoading(false);
+        console.warn('Could not fetch locale file, using bundled fallback:', err);
+        if (isMounted) {
+          setStrings(lang === 'pt' ? fallbackPt : fallbackEn);
+          setIsLoading(false);
+        }
       });
 
     return () => {
@@ -33,7 +42,9 @@ export function LanguageProvider({ children }) {
   }, [lang]);
 
   const toggleLang = () => {
-    setLang(prev => (prev === 'pt' ? 'en' : 'pt'));
+    const nextLang = lang === 'pt' ? 'en' : 'pt';
+    setLang(nextLang);
+    setStrings(nextLang === 'pt' ? fallbackPt : fallbackEn);
   };
 
   // Helper function to get nested keys: t('nav.home')

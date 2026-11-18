@@ -14,7 +14,7 @@ export default function Footer({ onSelectTab }) {
         <div>
           <div className="footer-logo-badge">
             <img 
-              src="/ad-motorsport-logo.png" 
+              src={`${import.meta.env.BASE_URL}ad-motorsport-logo.png`} 
               alt="AD Motorsport" 
               className="footer-logo-img" 
             />

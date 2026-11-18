@@ -23,9 +23,9 @@ export default function Hero({ onOpenBooking, onSelectTab }) {
         {/* Prominent Logo on a clean white emblem plate for maximum contrast with zero drop-shadow */}
         <div className="hero-logo-plate">
           <img 
-            src="/ad-motorsport-logo.png" 
+            src={`${import.meta.env.BASE_URL}ad-motorsport-logo.png`} 
             alt="AD Motorsport" 
-            className="hero-center-logo"
+            className="hero-center-logo" 
           />
         </div>
 
